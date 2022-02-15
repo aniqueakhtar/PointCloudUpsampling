@@ -28,8 +28,11 @@ We recommend you follow https://github.com/NVIDIA/MinkowskiEngine to setup the e
 
 ### Extra Files
 - We provide MPEG's `./utils/pc_error_d` file to be able to calculate the PSNR for the point clouds.
-- The pretrained models are found in the `./pretrained_model` folder.
 - `./pre_post_processing/Add_Gaussian_Noise.py` file shows how to add Gaussian Noise to the point cloud.
 - `./pre_post_processing/Convert_Kitti.py` file converts the raw KITTI point cloud to be converted into a `.ply` file so it can be processed by our network.
 - `./pre_post_processing/test_results_GPU.py` file tests the quality of the regenrated point cloud. However, you would need to install `pytorch3d` to be able to use this file.
 
+- Pretrained Models: 
+- Training dataset: [ShapeNet Dataset]()
+- 8iVFB Dataset: http://plenodb.jpeg.org/pc/8ilabs/
+- 8iVSLF Dataset: https://mpeg-pcc.org/index.php/pcc-content-database/8i-voxelized-surface-light-field-8ivslf-dataset/
