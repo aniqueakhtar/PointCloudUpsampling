@@ -33,20 +33,12 @@ PU-Dense introduces a novel Feature Extraction Unit that incorporates multiscale
 
 We provide the Conda environment we used in the `./Installation_files`. We have provided both the `environment.yml` file as well as `spec_file.txt` file for easy reproduction of conda environment.
 
-We recommend you follow https://github.com/NVIDIA/MinkowskiEngine to setup the environment for sparse convolution.
+We recommend you follow https://github.com/NVIDIA/MinkowskiEngine to setup the environment for sparse convolution. In our released code, we are employing `MinkowskiEngine 0.4`. 
+However, it can easily be updated to `Minkowski Engine 0.5 or higher`. There is minimal syntax changes in the newer version that can be updated in the Network Model.
 
-### Extra Files
-- We provide MPEG's `./utils/pc_error_d` file to be able to calculate the PSNR for the point clouds.
-- `./pre_post_processing/Add_Gaussian_Noise.py` file shows how to add Gaussian Noise to the point cloud.
-- `./pre_post_processing/Convert_Kitti.py` file converts the raw KITTI point cloud to be converted into a `.ply` file so it can be processed by our network.
-- `./pre_post_processing/test_results_GPU.py` file tests the quality of the regenrated point cloud. However, you would need to install `pytorch3d` to be able to use this file.
-
-<br>
-The datasets and pretrained model can be downloaded from:
-<br>
-
-- [Pretrained Models]()
-- Training dataset: [ShapeNet Dataset]()
+### Pretrained Models and Datasets
+- [Pretrained Models](https://umkc.box.com/s/pohfuxkojai8yqc236nw6ncqzw1qyqm8)
+- Training dataset: [ShapeNet Dataset](https://umkc.box.com/s/vsbvq64aipyt4088eda7ui393otpxomt)
 - [8iVFB Dataset](http://plenodb.jpeg.org/pc/8ilabs/)
 - [8iVSLF Dataset](https://mpeg-pcc.org/index.php/pcc-content-database/8i-voxelized-surface-light-field-8ivslf-dataset/)
 - [ScanObjectNN Dataset](https://github.com/hkust-vgd/scanobjectnn)
@@ -65,6 +57,24 @@ Please edit the araguments inside the ``train.py`` file to get the best results.
 python eval_8i.py
 ```
 We provide multiple demo evaluation files for each dataset. Some of them employs KD-tree partitions to not run into GPU memory issues.
+
+### Visualize
+```
+tensorboard --bind_all --logdir ./Upsampling/logs/4x_0x_ks5/  --port 5001
+```
+
+### Extra Files
+- We provide MPEG's `./utils/pc_error_d` file to be able to calculate the PSNR for the point clouds.
+- `./pre_post_processing/Add_Gaussian_Noise.py` file shows how to add Gaussian Noise to the point cloud.
+- `./pre_post_processing/Convert_Kitti.py` file converts the raw KITTI point cloud to be converted into a `.ply` file so it can be processed by our network.
+- `./pre_post_processing/test_results_GPU.py` file tests the quality of the regenrated point cloud. However, it does require installation of `pytorch3d` to be able to use this file.
+
+
+## Citation
+Still under review
+
+### Questions
+Please feel free to contact us with any questions. Feel free to open a new issue in this repository for a quick discussion.
 
 
 ## Authors
