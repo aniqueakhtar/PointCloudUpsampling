@@ -38,7 +38,7 @@ However, it can easily be updated to `Minkowski Engine 0.5 or higher`. There is 
 
 ### Pretrained Models and Datasets
 - [Pretrained Models](https://umkc.box.com/s/pohfuxkojai8yqc236nw6ncqzw1qyqm8)
-- Training dataset: [ShapeNet Dataset](https://umkc.box.com/s/vsbvq64aipyt4088eda7ui393otpxomt)
+- Training dataset: [ShapeNet Dataset](https://umkc.box.com/s/oyaugew2qfmxkxbgib54po1vjhtmvyid)
 - [8iVFB Dataset](http://plenodb.jpeg.org/pc/8ilabs/)
 - [8iVSLF Dataset](https://mpeg-pcc.org/index.php/pcc-content-database/8i-voxelized-surface-light-field-8ivslf-dataset/)
 - [ScanObjectNN Dataset](https://github.com/hkust-vgd/scanobjectnn)
