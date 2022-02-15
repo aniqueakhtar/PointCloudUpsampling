@@ -8,6 +8,12 @@ This repository is for our paper '[PU-Dense: Sparse Tensor-based Point Cloud Geo
 
 **[Project website with details about the work and the visual results](https://aniqueakhtar.github.io/publications/PU-Dense/)**
 
+In this work, we present a novel geometry upsampling technique, PU-Dense, which can process a diverse set of point clouds including synthetic mesh-based point clouds, real-world high-resolution point clouds, 
+real-world indoor LiDAR scanned objects, as well as outdoor dynamically acquired LiDAR-based point clouds. 
+PU-Dense employs a 3D multiscale architecture using sparse convolutional networks that hierarchically reconstruct an upsampled point cloud geometry via progressive rescaling and multiscale feature extraction. 
+The framework employs a UNet type architecture that downscales the point cloud to a bottleneck and then upscales it to a higher level-of-detail (LoD) point cloud. 
+PU-Dense introduces a novel Feature Extraction Unit that incorporates multiscale spatial learning by employing filters at multiple sampling rates and field of view. 
+
 
 
 <!---![Photo](./Figures/Meshes.png) -->
@@ -47,4 +53,23 @@ The datasets and pretrained model can be downloaded from:
 - [Kitti Dataset](http://www.cvlibs.net/datasets/kitti/)
 
 
+## Usage
+### Training
+```
+python train.py
+```
+Please edit the araguments inside the ``train.py`` file to get the best results.
 
+### Testing
+```
+python eval_8i.py
+```
+We provide multiple demo evaluation files for each dataset. Some of them employs KD-tree partitions to not run into GPU memory issues.
+
+
+## Authors
+A. Akhtar, and Z. Li are with the Department of Computer Science and Electrical Engineering, University of Missouri-Kansas City (e-mail: aniqueakhtar@mail.umkc.edu, zhu.li@ieee.org).
+
+L. Li is with the Department of Computer Science and Electrical Engineering, University of Missouri-Kansas City and also with the CAS Key Laboratory of Technology in Geo-Spatial Information Processing and Application System, University of Science and Technology of China (e-mail: lil1@ustc.edu.cn)
+
+G. Van der Auwera and J. Chen are with Qualcomm Technologies Inc., San Diego, CA, USA (e-mail: geertv@qti.qualcomm.com, cjianle@qti.qualcomm.com)
