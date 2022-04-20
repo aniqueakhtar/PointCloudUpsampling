@@ -71,7 +71,8 @@ tensorboard --bind_all --logdir ./Upsampling/logs/4x_0x_ks5/  --port 5001
 
 
 ## Citation
-Still under review
+Accepted at IEEE Transactions on Image Processing (TIP). 2022.
+Citation would be available soon.
 
 ### Questions
 Please feel free to contact us with any questions. Feel free to open a new issue in this repository for a quick discussion.
