@@ -16,10 +16,10 @@ PU-Dense introduces a novel Feature Extraction Unit that incorporates multiscale
 
 
 
-<!---![Photo](./Figures/Meshes.png) -->
+<!---![Photo](./Figures/Meshes.jpg) -->
 
 <center><p>
-    <img src="./Figures/Meshes.png" width="1600"/>
+    <img src="./Figures/Meshes.jpg" width="1600"/>
 </p></center>
 
 
