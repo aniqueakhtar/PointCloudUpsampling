@@ -14,7 +14,7 @@ files = sorted(glob.glob(orig_dir + '**.bin'))
 ## Should be optimized for best results
 # Try k values between 30 and 100. Both 30 and 100 gives very interesting results.
 # 30 is a bit more uniform. 
-k = 100
+k = 70
 
 for f in files:
     bin_pcd = np.fromfile(f, dtype=np.float32)
