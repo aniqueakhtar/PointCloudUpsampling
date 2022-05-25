@@ -6,9 +6,14 @@ import open3d as o3d
 orig_dir = './orig/'
 dest_dir = './ply/'
 
+if not os.path.exists(dest_dir):
+    os.makedirs(dest_dir)
+
 files = sorted(glob.glob(orig_dir + '**.bin'))
 # Voxelization / Quantization rate
 ## Should be optimized for best results
+# Try k values between 30 and 100. Both 30 and 100 gives very interesting results.
+# 30 is a bit more uniform. 
 k = 100
 
 for f in files:
