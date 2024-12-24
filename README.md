@@ -79,8 +79,8 @@ Please feel free to contact us with any questions. Feel free to open a new issue
 
 
 ## Authors
-A. Akhtar, and Z. Li are with the Department of Computer Science and Electrical Engineering, University of Missouri-Kansas City (e-mail: aniqueakhtar@mail.umkc.edu, zhu.li@ieee.org).
+A. Akhtar, and Z. Li are with the Department of Computer Science and Electrical Engineering, University of Missouri-Kansas City.
 
-L. Li is with the Department of Computer Science and Electrical Engineering, University of Missouri-Kansas City and also with the CAS Key Laboratory of Technology in Geo-Spatial Information Processing and Application System, University of Science and Technology of China (e-mail: lil1@ustc.edu.cn)
+L. Li is with the Department of Computer Science and Electrical Engineering, University of Missouri-Kansas City and also with the CAS Key Laboratory of Technology in Geo-Spatial Information Processing and Application System, University of Science and Technology of China.
 
-G. Van der Auwera and J. Chen are with Qualcomm Technologies Inc., San Diego, CA, USA (e-mail: geertv@qti.qualcomm.com, cjianle@qti.qualcomm.com)
+G. Van der Auwera and J. Chen are with Qualcomm Technologies Inc., San Diego, CA, USA.
