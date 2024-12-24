@@ -72,7 +72,7 @@ tensorboard --bind_all --logdir ./Upsampling/logs/4x_0x_ks5/  --port 5001
 
 ## Citation
 Accepted at IEEE Transactions on Image Processing (TIP). 2022.
-Citation would be available soon.
+Akhtar, Anique, Zhu Li, Geert Van der Auwera, Li Li, and Jianle Chen. "PU-dense: Sparse tensor-based point cloud geometry upsampling." IEEE Transactions on Image Processing 31 (2022): 4133-4148.
 
 ### Questions
 Please feel free to contact us with any questions. Feel free to open a new issue in this repository for a quick discussion.
